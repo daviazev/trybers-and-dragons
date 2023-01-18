@@ -22,17 +22,6 @@ export default abstract class Archetype {
     return this._cost;
   }
 
-  /*
-    A classe Archetype deve ter um método estático chamado 
-    createdArchetypeInstances que retorna um number:
-
-    Esse número corresponde à quantidade de instâncias criadas a 
-    partir das classes estendidas da classe abstrata Archetype;
-
-    Cada arquétipo terá seu número máximo de instâncias, que será 
-    definido dentro de suas classes especializadas;
-  */
-
   static createdArchetypeInstances(): number {
     throw new Error('Not implemented');
   }
